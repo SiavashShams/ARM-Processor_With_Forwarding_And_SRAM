@@ -1,0 +1,7 @@
+Warning (10273): Verilog HDL warning at Val2Gen.sv(35): extended using "x" or "z"
+Warning (10268): Verilog HDL information at TB.sv(16): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at Mem_Stage_Reg.sv(12): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at EXE_Stage.sv(27): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at EXE_Stage.sv(33): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at ALU.sv(21): extended using "x" or "z"
+Warning (10268): Verilog HDL information at ARM.v(306): always construct contains both blocking and non-blocking assignments

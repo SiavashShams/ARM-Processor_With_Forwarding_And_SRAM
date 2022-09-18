@@ -1,0 +1,35 @@
+`timescale 1ns/1ns
+module TB();
+
+reg clk,rst,clk2;
+reg forward_enb;
+
+ARM_PROCESSOR MY_ARM_PROCESSOR(
+    clk,rst,
+    forward_enb
+);
+
+always #10 clk = ~clk;
+parameter t_hold = 2; 
+reg[32:0] test;
+
+always@(posedge clk, posedge rst) begin
+    if(rst)
+        clk2 <= 1'b0;
+    else
+        clk2 = ~clk2;
+end
+
+initial begin
+    clk = 1'b0;
+    forward_enb = 1'b0;
+    rst = 1'b1;
+    test = 32'b00000000000000000010000000000000 - 32'b11000000000000000000000000000000;
+    @(posedge clk)
+    #t_hold
+    rst = 1'b0;
+    #20000
+    $stop;
+end
+
+endmodule

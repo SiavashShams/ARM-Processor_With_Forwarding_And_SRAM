@@ -1,0 +1,165 @@
+{D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Mem_Stage_Reg.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Mem_Stage_Reg.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mem_Stage_Reg
+
+Top level modules:
+	Mem_Stage_Reg
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/IF_Stage_Reg.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/IF_Stage_Reg.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module IF_Stage_Reg
+
+Top level modules:
+	IF_Stage_Reg
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Hazard_Detection_Unit.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Hazard_Detection_Unit.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Hazard_Detection_Unit
+
+Top level modules:
+	Hazard_Detection_Unit
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/EXE_Stage_Reg.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/EXE_Stage_Reg.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EXE_Stage_Reg
+
+Top level modules:
+	EXE_Stage_Reg
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ALU.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ALU.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/WB_Stage.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/WB_Stage.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module WB_Stage
+
+Top level modules:
+	WB_Stage
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Register_File.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Register_File.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Controller.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Controller.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Condition_Check.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Condition_Check.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Condition_Check
+
+Top level modules:
+	Condition_Check
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/RegisterFile.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/RegisterFile.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/TB.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/TB.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Forwaring_Unit.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Forwaring_Unit.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Forwarding_Unit
+
+Top level modules:
+	Forwarding_Unit
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Val2Gen.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Val2Gen.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Va2Gen
+
+Top level modules:
+	Va2Gen
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/IF_Stage_TB.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/IF_Stage_TB.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module IF_Stage_TB
+
+Top level modules:
+	IF_Stage_TB
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ARM_PROCESSOR.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ARM_PROCESSOR.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ARM_PROCESSOR
+
+Top level modules:
+	ARM_PROCESSOR
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ID_Stage.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ID_Stage.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ID_Stage
+
+Top level modules:
+	ID_Stage
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Mem_Stage.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Mem_Stage.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mem_Stage
+
+Top level modules:
+	Mem_Stage
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/IF_Stage.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/IF_Stage.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module IF_Stage
+
+Top level modules:
+	IF_Stage
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/SRAM.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/SRAM.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SRAM
+
+Top level modules:
+	SRAM
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Val2Gen_TB.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Val2Gen_TB.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Val2Gen_TB
+
+Top level modules:
+	Val2Gen_TB
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Inst_Mem.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Inst_Mem.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Inst_Mem
+
+Top level modules:
+	Inst_Mem
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ID_Stage_Reg.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/ID_Stage_Reg.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ID_Stage_Reg
+
+Top level modules:
+	ID_Stage_Reg
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/EXE_Stage.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/EXE_Stage.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EXE_Stage
+
+Top level modules:
+	EXE_Stage
+
+} {} {}} {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Sram_Controller.sv} {1 {vlog -work work -sv {D:/TERM8_UT/Computer Arch lab/ARM Processor_With_Forw_And_SRAM/Sram_Controller.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sram_Controller
+
+Top level modules:
+	Sram_Controller
+
+} {} {}}

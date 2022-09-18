@@ -1,0 +1,26 @@
+`timescale 1ns/1ns
+module IF_Stage(
+    input clk, rst, freeze, branch_taken,
+    input[31:0] branch_addr,
+    output[31:0] pc, instruction
+);
+
+reg[7:0] mem[0:65535];
+initial begin
+    //In Code initialization
+    //ToDo
+
+    //File initialization
+    $readmemb("inst_mem.txt", mem);
+end
+
+assign instruction = {mem[pc], mem[pc + 1], mem[pc + 2], mem[pc + 3]};
+
+always@(posedge clk, posedge rst) begin
+    if(rst)
+        pc <= 32'b0;
+    else
+        pc <= pc + 4;
+end
+
+endmodule

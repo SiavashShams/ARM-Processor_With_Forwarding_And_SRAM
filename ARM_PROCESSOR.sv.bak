@@ -1,0 +1,21 @@
+`timescale 1ns/1ns
+module ARM_PROCESSOR(
+    input clk,rst
+);
+wire freeze, branch_taken;
+wire[31:0] branch_addr;
+wire[31:0] pc, instruction;
+
+wire[31:0] pc_if,pc_id,pc_exe,pc_mem,pc_wb;
+
+IF_Stage My_IF_Stage(clk, rst, freeze, branch_taken,branch_addr,pc_if, instruction);
+IF_Stage_Reg My_IF_Stage_Reg(clk, rst, pc_if,pc_id);
+ID_Stage My_ID_Stage(clk, rst);
+ID_Stage_Reg My_ID_Stage_Reg(clk, rst, pc_id,pc_exe);
+EXE_Stage My_EXE_Stage(clk, rst);
+EXE_Stage_Reg My_EXE_Stage_Reg(clk, rst, pc_exe,pc_mem);
+Mem_Stage My_Mem_Stage(clk, rst);
+Mem_Stage_Reg My_Mem_Stage_Reg(clk, rst, pc_mem,pc_wb);
+WB_Stage My_WB_Stage(clk, rst);
+
+endmodule
